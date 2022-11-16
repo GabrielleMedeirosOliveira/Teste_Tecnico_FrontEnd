@@ -2,8 +2,12 @@ import style from "./style.module.css";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useContext} from "react";
+import { CalculateContext} from "../../contexts/calculate";
 
 export const Form = () =>{
+
+    const {calculateAnticipation} = useContext(CalculateContext);
 
     const formSchema = yup.object().shape({
         amount: yup.string().required("Field Required!"),
@@ -19,7 +23,7 @@ export const Form = () =>{
     });
 
     const onSubmit = (data) =>{
-        console.log(data);
+        calculateAnticipation(data);
     }
 
     return (
