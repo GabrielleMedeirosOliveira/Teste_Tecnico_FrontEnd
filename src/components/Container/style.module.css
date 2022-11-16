@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    gap: 1rem;
+
+    max-width: 800px;
+    min-height: 360px;
+
+    width: 90%;
+    height: 45%;
+
+    border-radius: 10px;
+
+    background-color: #d5dee3;
+
+    border: 2px solid black;
+}
+
+@media (min-width:1440px){
+    .container{
+        width: 100vw;
+    }
+}
+
+@media (max-width:750px){
+    .container{
+        min-height: 600px;
+        flex-direction: column;
+    }
+}

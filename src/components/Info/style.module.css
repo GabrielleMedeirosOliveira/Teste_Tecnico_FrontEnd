@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.infoTime{
+    color: black;
+}
+
+.infoPrice{
+    font-weight: 600;
+    color: rgb(17 83 114);
+}

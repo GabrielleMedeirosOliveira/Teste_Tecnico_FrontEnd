@@ -1,0 +1,7 @@
+.app{
+  width: 100%;
+  height: 100vh;
+  background-color: #44545c;
+  padding-top: 50px;
+  font-family: monospace;
+}
