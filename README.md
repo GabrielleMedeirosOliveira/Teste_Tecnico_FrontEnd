@@ -1,7 +1,7 @@
 # Teste_Tecnico_FrontEnd
 Esse é a realização de um Teste Técnico, realizado pela Kenzie Academy Brasil, aonde nosso desafio é criar uma calculadora de antecipação, para que nossos ""clientes"" possam saber quanto custa antecipar uma transação.
 
-Getting Started with Create React App
+# Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
 Available Scripts
